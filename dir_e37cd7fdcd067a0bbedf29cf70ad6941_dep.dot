@@ -1,0 +1,11 @@
+digraph "/home/ubuntu/projects/pin-2.14/source/tools/Triton/src/libtriton/bindings/python/modules" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cd620cc27d99cd5acee30f3194b95f5b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="python" fontname="Helvetica", fontsize="10", URL="dir_cd620cc27d99cd5acee30f3194b95f5b.html"]
+  dir_e37cd7fdcd067a0bbedf29cf70ad6941 [shape=box, label="modules", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e37cd7fdcd067a0bbedf29cf70ad6941.html"];
+  }
+  dir_0a436fc82d73b0b9b664d07557632391 [shape=box label="includes" fillcolor="white" style="filled" color="red" URL="dir_0a436fc82d73b0b9b664d07557632391.html"];
+  dir_e37cd7fdcd067a0bbedf29cf70ad6941->dir_0a436fc82d73b0b9b664d07557632391 [headlabel="9", labeldistance=1.5 headhref="dir_000015_000024.html"];
+}

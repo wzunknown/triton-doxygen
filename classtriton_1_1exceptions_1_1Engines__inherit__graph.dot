@@ -1,0 +1,29 @@
+digraph "triton::exceptions::Engines"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="triton::exceptions\l::Engines",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="triton::exceptions\l::Exception",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1Exception.html",tooltip="The root class of all exceptions. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="std::exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="triton::exceptions\l::SolverEngine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1SolverEngine.html",tooltip="The exception class used by the solver engine. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="triton::exceptions\l::SolverModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1SolverModel.html",tooltip="The exception class used by solver models. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="triton::exceptions\l::SymbolicEngine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1SymbolicEngine.html",tooltip="The exception class used by the symbolic engine. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="triton::exceptions\l::PathConstraint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1PathConstraint.html",tooltip="The exception class used by path constraints. "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="triton::exceptions\l::PathManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1PathManager.html",tooltip="The exception class used by the path manager. "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="triton::exceptions\l::SymbolicExpression",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1SymbolicExpression.html",tooltip="The exception class used by symbolic expressions. "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="triton::exceptions\l::SymbolicSimplification",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1SymbolicSimplification.html",tooltip="The exception class used by symbolic simplifications. "];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="triton::exceptions\l::SymbolicVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1SymbolicVariable.html",tooltip="The exception class used by symbolic variables. "];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="triton::exceptions\l::TaintEngine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1exceptions_1_1TaintEngine.html",tooltip="The exception class used by the taint engine. "];
+}

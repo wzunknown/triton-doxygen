@@ -1,0 +1,22 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node147 [label="triton::arch::arm::\laarch64::AArch64Specifications",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1arm_1_1aarch64_1_1AArch64Specifications.html",tooltip="The AArch64Specifications class defines specifications about the AArch64 CPU. "];
+  Node147 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="triton::arch::arm::\laarch64::AArch64Cpu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1arm_1_1aarch64_1_1AArch64Cpu.html",tooltip="This class is used to describe the ARM (64-bits) spec. "];
+  Node144 [label="triton::arch::arm::\larm32::Arm32Specifications",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1arm_1_1arm32_1_1Arm32Specifications.html",tooltip="The Arm32Specifications class defines specifications about the Arm32 CPU. "];
+  Node144 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node129 [label="triton::arch::arm::\larm32::Arm32Cpu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1arm_1_1arm32_1_1Arm32Cpu.html",tooltip="This class is used to describe the ARM (32-bits) spec. "];
+  Node127 [label="triton::arch::CpuInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1CpuInterface.html",tooltip="This interface is used as abstract CPU interface. All CPU must use this interface. "];
+  Node127 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="triton::arch::x86::\lx8664Cpu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1x86_1_1x8664Cpu.html",tooltip="This class is used to describe the x86 (64-bits) spec. "];
+  Node127 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="triton::arch::x86::\lx86Cpu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1x86_1_1x86Cpu.html",tooltip="This class is used to describe the x86 (32-bits) spec. "];
+  Node0 [label="triton::arch::x86::\lx86Specifications",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1x86_1_1x86Specifications.html",tooltip="The x86Specifications class defines specifications about the x86 and x86_64 CPU. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

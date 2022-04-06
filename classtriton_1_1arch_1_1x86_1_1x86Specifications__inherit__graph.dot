@@ -1,0 +1,10 @@
+digraph "triton::arch::x86::x86Specifications"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="triton::arch::x86::\lx86Specifications",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="triton::arch::x86::\lx8664Cpu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1x86_1_1x8664Cpu.html",tooltip="This class is used to describe the x86 (64-bits) spec. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="triton::arch::x86::\lx86Cpu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1x86_1_1x86Cpu.html",tooltip="This class is used to describe the x86 (32-bits) spec. "];
+}

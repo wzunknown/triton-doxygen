@@ -1,0 +1,11 @@
+digraph "/home/ubuntu/projects/pin-2.14/source/tools/Triton/src/libtriton/arch/x86" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_235acb633cc6470ffe7c474fd8c4964d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="arch" fontname="Helvetica", fontsize="10", URL="dir_235acb633cc6470ffe7c474fd8c4964d.html"]
+  dir_48c7881ef32601de7b15d1910fe1412e [shape=box, label="x86", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_48c7881ef32601de7b15d1910fe1412e.html"];
+  }
+  dir_0a436fc82d73b0b9b664d07557632391 [shape=box label="includes" fillcolor="white" style="filled" color="red" URL="dir_0a436fc82d73b0b9b664d07557632391.html"];
+  dir_48c7881ef32601de7b15d1910fe1412e->dir_0a436fc82d73b0b9b664d07557632391 [headlabel="22", labeldistance=1.5 headhref="dir_000009_000024.html"];
+}

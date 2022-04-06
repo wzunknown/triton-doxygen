@@ -1,0 +1,17 @@
+digraph "/home/ubuntu/projects/pin-2.14/source/tools/Triton/src/libtriton/arch/arm" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_235acb633cc6470ffe7c474fd8c4964d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="arch" fontname="Helvetica", fontsize="10", URL="dir_235acb633cc6470ffe7c474fd8c4964d.html"]
+  subgraph clusterdir_de2d9f8b867f102cf90ad4c3c79c2731 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_de2d9f8b867f102cf90ad4c3c79c2731.html"];
+    dir_de2d9f8b867f102cf90ad4c3c79c2731 [shape=plaintext label="arm"];
+    dir_4aa19a62b7de3c5176507233e5312cd5 [shape=box label="aarch64" color="black" fillcolor="white" style="filled" URL="dir_4aa19a62b7de3c5176507233e5312cd5.html"];
+    dir_b7e2342456b3263daf37e59003c794fb [shape=box label="arm32" color="black" fillcolor="white" style="filled" URL="dir_b7e2342456b3263daf37e59003c794fb.html"];
+  }
+  }
+  dir_0a436fc82d73b0b9b664d07557632391 [shape=box label="includes" fillcolor="white" style="filled" color="red" URL="dir_0a436fc82d73b0b9b664d07557632391.html"];
+  dir_4aa19a62b7de3c5176507233e5312cd5->dir_0a436fc82d73b0b9b664d07557632391 [headlabel="16", labeldistance=1.5 headhref="dir_000007_000024.html"];
+  dir_b7e2342456b3263daf37e59003c794fb->dir_0a436fc82d73b0b9b664d07557632391 [headlabel="18", labeldistance=1.5 headhref="dir_000008_000024.html"];
+}

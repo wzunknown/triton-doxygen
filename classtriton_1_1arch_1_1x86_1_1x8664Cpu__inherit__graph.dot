@@ -1,0 +1,10 @@
+digraph "triton::arch::x86::x8664Cpu"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="triton::arch::x86::\lx8664Cpu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="triton::arch::CpuInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1CpuInterface.html",tooltip="This interface is used as abstract CPU interface. All CPU must use this interface. "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="triton::arch::x86::\lx86Specifications",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtriton_1_1arch_1_1x86_1_1x86Specifications.html",tooltip="The x86Specifications class defines specifications about the x86 and x86_64 CPU. "];
+}

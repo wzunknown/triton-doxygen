@@ -1,0 +1,29 @@
+digraph "Triton"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node9 [label="Engines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__engines.html"];
+  Node3 [label="Callbacks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__callbacks.html"];
+  Node7 [label="Exceptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__exceptions.html"];
+  Node1 [label="Arch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__arch.html"];
+  Node8 [label="Modes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__modes.html"];
+  Node5 [label="Size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__size.html"];
+  Node6 [label="Bitsize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__bitsize.html"];
+  Node2 [label="Ast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ast.html"];
+  Node4 [label="Utils",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__utils.html"];
+  Node11 [label="Os",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__os.html"];
+  Node0 [label="Triton",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 [label="Bindings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__bindings.html"];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node8 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node9 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node10 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node11 [shape=plaintext, dir="back", style="solid"];
+}
